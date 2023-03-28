@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: sans-serif;
+    background-color: #000;
   }
 
   ul {
