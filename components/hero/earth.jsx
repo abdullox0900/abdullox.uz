@@ -17,18 +17,17 @@ const Model = () => {
 const Render = () => {
     const ref = useRef()
     // console.log(ref.current)
-    useFrame((state, delta) => (ref.current.rotation.y += 0.004))
+    useFrame((state, delta) => (ref.current.rotation.y += 0.0005))
     useFrame((state, delta) => (ref.current.rotation.x = 0.25))
     return (
         <mesh
             ref={ref}
-            scale={0.045}
+            scale={0.025}
         // scale={2.2}
         >
             <Model />
         </mesh>
     )
-
 }
 
 function Earth() {
@@ -36,7 +35,7 @@ function Earth() {
         <React.Fragment>
             <Canvas
                 // colorManagement
-                camera={{ position: [0, 0, 3], fov: 40 }}
+                camera={{ position: [0, -2, 3], fov: 55 }}
             >
                 <Suspense fallback={null}>
                     {/* <OrbitControls  enablePan={false} enableZoom={false}/> */}

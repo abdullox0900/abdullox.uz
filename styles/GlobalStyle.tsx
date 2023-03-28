@@ -1,7 +1,7 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
-  * {
+* {
     margin: 0;
     padding: 0;
   }
@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     font-family: sans-serif;
     background-color: #000;
+    overflow: hidden;
   }
 
   ul {
