@@ -23,5 +23,10 @@ export const GlobalStyle = createGlobalStyle`
 
   a {
     display: inline-block;
+    text-decoration: none;
+  }
+
+  img {
+    display: inline-block;
   }
 `
