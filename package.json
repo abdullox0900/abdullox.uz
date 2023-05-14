@@ -1,5 +1,5 @@
 {
-  "name": "onlinestore",
+  "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/font": "^13.4.2",
     "@react-three/drei": "^9.58.5",
     "@react-three/fiber": "^8.12.0",
     "@types/node": "18.13.0",
@@ -19,12 +20,14 @@
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-intersection-observer": "^9.4.3",
     "react-responsive-carousel": "^3.2.23",
     "react-switch": "^7.0.0",
     "react-transition-group": "^4.4.5",
     "styled-components": "^5.3.6",
     "three": "^0.150.1",
-    "typescript": "4.9.5"
+    "typescript": "4.9.5",
+    "uuidv4": "^6.2.13"
   },
   "devDependencies": {
     "prettier": "^2.8.4",
