@@ -37,7 +37,15 @@ export const HeaderNavItem = styled.li`
 `
 
 export const HeaderBtn = styled.button`
+    display: flex;
+    align-items: center;
+    justify-content: center;
 	padding: 0;
 	border: none;
-	background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+	background-color: grey;
 `
+

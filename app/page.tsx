@@ -6,26 +6,16 @@ import Hero from '../components/hero/hero'
 import Introduction from '../components/introduction/Introduction'
 
 import { GlobalStyle } from '../styles/GlobalStyle'
+import styled from "styled-components";
 
 function Page() {
 
-	const { ref, inView } = useInView({
-		threshold: 0
-	  });
-
-	  if(inView == true) {
-		setTimeout(() => {
-            inView == true
-		}, 2000)
-	  }
-
-
 	return (
 		<>
-				<GlobalStyle />
-				<Header />
-				<Hero infoInView={inView} />
-				<Introduction scrollRef={ref} />
+			<GlobalStyle />
+			<Header />
+			<Hero/>
+			{/*<Introduction scrollRef={ref} />*/}
 		</>
 	)
 }

@@ -1,7 +1,6 @@
 import {
 	HeroAvatar,
 	HeroContent,
-	HeroContentAnimeBox,
 	HeroContentInfo,
 	HeroContentTitle,
 	HeroTitle,
@@ -14,35 +13,8 @@ import { Container } from '../container/Container'
 import SocialMedia from '../social_media/SocialMedia'
 import { useRef } from 'react'
 
-function Hero({infoInView}) {
-	// const router = useRouter()
-	//
-	// if (router.pathname == '/') {
-	// 	document.body.style.overflow = 'hidden'
-	// }
+function Hero() {
 
-	 const elRefElement = useRef()
-
-
-
-	const styles1: React.CSSProperties = {
-		position: 'absolute',
-		right: '-400px',
-		bottom: '-250px',
-		width: '900px',
-		height: '900px',
-		transition: 'all 4s',
-	}
-
-	// const styles2: React.CSSProperties = {
-	// 	position: 'fixed',
-	// 	right:'-1000px',
-	// 	top: '500px',
-    //     bottom: '0px',
-	// 	width: '900px',
-	// 	height: '900px',
-	// 	transition: 'all 4s',
-	// }
 
 	return (
 		<HeroWrap>
@@ -52,7 +24,6 @@ function Hero({infoInView}) {
 					<HeroTitle>
 						Abdullokh <br /> Abdusalomov
 					</HeroTitle>
-					<HeroContentAnimeBox />
 				</HeroWrapTop>
 				<HeroContent>
 					<HeroContentTitle>I'm a Software Engineer</HeroContentTitle>
@@ -63,12 +34,12 @@ function Hero({infoInView}) {
 					<SocialMedia />
 				</HeroContent>
 			</Container>
-			<div
-			    ref={elRefElement}
-				className='earth'
-				style={styles1}>
-				<Earth />
-			</div>
+			{/*<div*/}
+			{/*    ref={elRefElement}*/}
+			{/*	className='earth'*/}
+			{/*	style={styles1}>*/}
+			{/*	<Earth />*/}
+			{/*</div>*/}
 		</HeroWrap>
 	)
 }

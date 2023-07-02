@@ -1,4 +1,4 @@
-import { Container } from '../container/Container'
+import {Container} from "../container/container"
 import {
 	HeaderBtn,
 	HeaderLogo,
@@ -9,8 +9,7 @@ import {
 	HeaderWrap
 } from './style'
 
-import Switch from 'react-switch'
-import Earth from '../hero/earth'
+import ModeIcon from "../../assets/svg/mode-icon";
 
 function Header() {
 	// constructor() {
@@ -39,8 +38,12 @@ function Header() {
 					</HeaderNavList>
 				</HeaderNav>
 
-				{/* <HeaderBtn>as</HeaderBtn> */}
-				{/* <Switch onChange={this.handleChange} checked={this.state.checked} /> */}
+				 <HeaderBtn onClick={() => {
+					 document.body.style.backgroundColor = '#020a13'
+					 document.body.style.color = '#fff'
+				 }}>
+					 <ModeIcon />
+				 </HeaderBtn>
 			</HeaderWrap>
 		</Container>
 	)

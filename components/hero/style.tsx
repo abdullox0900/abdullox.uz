@@ -13,58 +13,43 @@ export const HeroWrapTop = styled.div`
 `
 
 export const HeroAvatar = styled.img`
-	width: 250px;
-	height: 250px;
+	width: 180px;
+	height: 180px;
 	margin-right: 30px;
 	margin-bottom: 30px;
 	border-radius: 50%;
 	object-fit: cover;
+    box-shadow: 0 10px 40px 10px #cacaca;
 `
 
 export const HeroTitle = styled.h1`
-	font-family: 'Preahvihear';
+    font-family: "Poppins";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 50px;
 	line-height: 60px;
-	color: #fff;
+	color: #000;
 `
 
 export const HeroContent = styled.div``
 
 export const HeroContentTitle = styled.h2`
-	font-family: 'Preahvihear';
+    font-family: "Poppins";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 26px;
-	color: #fff;
+	color: #000;
 	line-height: 47px;
 	letter-spacing: 0.02em;
 	margin-bottom: 20px;
 `
 
 export const HeroContentInfo = styled.p`
-	width: 380px;
+	width: 450px;
 	margin-bottom: 30px;
-	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: normal;
 	color: #545454;
-`
-
-export const HeroContentAnimeBox = styled.div`
-	position: absolute;
-	left: 20%;
-	width: 300px;
-	height: 600px;
-	background: radial-gradient(
-			50% 50% at 50% 50%,
-			#000e35 0%,
-			rgba(0, 14, 53, 0) 100%
-		),
-		radial-gradient(50% 50% at 50% 50%, #000e35 0%, rgba(0, 14, 53, 0) 100%);
-	transform: rotate(-89.25deg);
-	z-index: -1;
 `
