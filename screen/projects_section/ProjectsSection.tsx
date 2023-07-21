@@ -4,7 +4,7 @@ import { ProjectsTitle, ProjectsWrapper } from './Style'
 function ProjectsSection() {
 	return (
 		<ProjectsWrapper>
-			<ProjectsTitle>Projectsssss</ProjectsTitle>
+			<ProjectsTitle>Projectsssss   </ProjectsTitle>
 		</ProjectsWrapper>
 	)
 }
