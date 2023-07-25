@@ -1,34 +1,32 @@
 import styled from 'styled-components'
 
 export const HeroWrap = styled.div`
-	width: 100%;
-	padding: 30px 0px;
+	padding: 70px 0px;
 `
 
 export const HeroWrapTop = styled.div`
 	display: flex;
 	align-items: center;
 	position: relative;
-	margin-top: 50px;
+	margin: 50px 0;
 `
 
 export const HeroAvatar = styled.img`
 	width: 180px;
 	height: 180px;
 	margin-right: 30px;
-	margin-bottom: 30px;
 	border-radius: 50%;
 	object-fit: cover;
-    box-shadow: 0 10px 40px 10px #cacaca;
+    /* box-shadow: 0 10px 30px 0px #cacaca; */
 `
 
 export const HeroTitle = styled.h1`
     font-family: "Poppins";
 	font-style: normal;
-	font-weight: 400;
-	font-size: 50px;
+	font-weight: 600;
+	font-size: 60px;
 	line-height: 60px;
-	color: #000;
+	color: #fff;
 `
 
 export const HeroContent = styled.div``
