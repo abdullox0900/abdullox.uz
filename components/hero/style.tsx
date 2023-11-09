@@ -23,8 +23,8 @@ export const HeroAvatar = styled.img`
 export const HeroTitle = styled.h1`
     font-family: "Poppins";
 	font-style: normal;
-	font-weight: 600;
-	font-size: 60px;
+	font-weight: 500;
+	font-size: 40px;
 	line-height: 60px;
 	color: #fff;
 `
