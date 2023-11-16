@@ -25,6 +25,10 @@ export const HeroTitle = styled.h1`
 	font-style: normal;
 	font-weight: 500;
 	font-size: 40px;
+
+
+
+	
 	line-height: 60px;
 	color: #fff;
 `
