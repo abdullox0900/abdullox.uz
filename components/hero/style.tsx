@@ -2,12 +2,17 @@ import styled from 'styled-components'
 
 export const HeroWrap = styled.div`
 	padding: 70px 0px;
+
+
+	
 `
 
 export const HeroWrapTop = styled.div`
 	display: flex;
 	align-items: center;
 	position: relative;
+
+
 	margin: 50px 0;
 `
 
@@ -47,7 +52,7 @@ export const HeroContentTitle = styled.h2`
 export const HeroContentInfo = styled.p`
 	width: 450px;
 
-	
+
 	margin-bottom: 30px;
 	font-style: normal;
 
