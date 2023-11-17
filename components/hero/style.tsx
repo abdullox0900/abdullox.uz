@@ -21,7 +21,7 @@ export const HeroAvatar = styled.img`
 	height: 180px;
 
 
-	
+
 	margin-right: 30px;
 
 
@@ -49,6 +49,9 @@ export const HeroContentTitle = styled.h2`
 	font-style: normal;
 	font-weight: 400;
 	font-size: 26px;
+
+
+	
 	color: #000;
 	line-height: 47px;
 	letter-spacing: 0.02em;
