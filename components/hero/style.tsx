@@ -60,7 +60,7 @@ export const HeroContentTitle = styled.h2`
 	letter-spacing: 0.02em;
 	margin-bottom: 20px;
 
-	
+
 `
 
 export const HeroContentInfo = styled.p`
@@ -72,6 +72,8 @@ export const HeroContentInfo = styled.p`
 
 
 	font-weight: 400;
+
+	
 	font-size: 18px;
 
 
