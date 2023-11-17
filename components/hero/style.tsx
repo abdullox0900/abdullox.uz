@@ -27,8 +27,6 @@ export const HeroTitle = styled.h1`
 	font-size: 40px;
 
 
-
-	
 	line-height: 60px;
 	color: #fff;
 `
@@ -53,5 +51,7 @@ export const HeroContentInfo = styled.p`
 	font-weight: 400;
 	font-size: 18px;
 	line-height: normal;
+
+	
 	color: #545454;
 `
