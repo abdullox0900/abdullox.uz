@@ -46,12 +46,16 @@ export const HeroContentTitle = styled.h2`
 
 export const HeroContentInfo = styled.p`
 	width: 450px;
-	margin-bottom: 30px;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: normal;
 
 	
+	margin-bottom: 30px;
+	font-style: normal;
+
+
+	font-weight: 400;
+	font-size: 18px;
+
+
+	line-height: normal;
 	color: #545454;
 `
