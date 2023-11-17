@@ -19,10 +19,13 @@ export const HeroWrapTop = styled.div`
 export const HeroAvatar = styled.img`
 	width: 180px;
 	height: 180px;
-	margin-right: 30px;
 
 
 	
+	margin-right: 30px;
+
+
+
 	border-radius: 50%;
 	object-fit: cover;
     /* box-shadow: 0 10px 30px 0px #cacaca; */
