@@ -8,22 +8,22 @@ function SocialMedia() {
 		<SocialList>
 			<SocialListItem>
 				<SocialListLink href='#' target='_blank'>
-					<GitHubIcon width={'24px'} height={'24px'} color={'#545454'} />
+					<GitHubIcon width={'28px'} height={'28px'} color={'#fff'} />
 				</SocialListLink>
 			</SocialListItem>
             <SocialListItem>
 				<SocialListLink href='#' target='_blank'>
-					<LinkedinIcon width={'24px'} height={'24px'} color={'#545454'} />
+					<LinkedinIcon width={'28px'} height={'28px'} color={'#fff'} />
 				</SocialListLink>
 			</SocialListItem>
             <SocialListItem>
 				<SocialListLink href='#' target='_blank'>
-					<YouTubeIcon width={'24px'} height={'24px'} color={'#545454'} />
+					<YouTubeIcon width={'28px'} height={'28px'} color={'#fff'} />
 				</SocialListLink>
 			</SocialListItem>
             <SocialListItem>
 				<SocialListLink href='#' target='_blank'>
-					<TelegramIcon width={'24px'} height={'24px'} color={'#545454'} />
+					<TelegramIcon width={'28px'} height={'28px'} color={'#fff'} />
 				</SocialListLink>
 			</SocialListItem>
 		</SocialList>

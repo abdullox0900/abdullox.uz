@@ -33,17 +33,15 @@ function Header() {
 					<HeaderNavList>
 						<HeaderNavItem>About</HeaderNavItem>
 						<HeaderNavItem>Projects</HeaderNavItem>
-						<HeaderNavItem>Resume</HeaderNavItem>
-						<HeaderNavItem>Contact</HeaderNavItem>
 					</HeaderNavList>
 				</HeaderNav>
 
-				 <HeaderBtn onClick={() => {
-					 document.body.style.backgroundColor = '#020a13'
-					 document.body.style.color = '#fff'
+				 {/* <HeaderBtn onClick={() => {
+					//  document.body.style.backgroundColor = '#020a13'
+					//  document.body.style.color = '#fff'
 				 }}>
 					 <ModeIcon />
-				 </HeaderBtn>
+				 </HeaderBtn> */}
 			</HeaderWrap>
 		</Container>
 	)

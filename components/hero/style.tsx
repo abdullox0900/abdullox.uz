@@ -36,7 +36,7 @@ export const HeroContentTitle = styled.h2`
 	font-style: normal;
 	font-weight: 400;
 	font-size: 26px;
-	color: #000;
+	color: #ffff;
 	line-height: 47px;
 	letter-spacing: 0.02em;
 	margin-bottom: 20px;

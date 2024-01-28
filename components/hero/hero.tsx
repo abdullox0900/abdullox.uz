@@ -34,12 +34,12 @@ function Hero() {
 					<SocialMedia />
 				</HeroContent>
 			</Container>
-			{/*<div*/}
-			{/*    ref={elRefElement}*/}
-			{/*	className='earth'*/}
-			{/*	style={styles1}>*/}
-			{/*	<Earth />*/}
-			{/*</div>*/}
+			{/* <div
+			   ref={elRefElement}
+				className='earth'
+				style={styles1}>
+				<Earth />
+			</div> */}
 		</HeroWrap>
 	)
 }

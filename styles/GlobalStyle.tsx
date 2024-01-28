@@ -16,10 +16,13 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: "Poppins";
-    background-color: #fffdfc;
+    background-color: #020a13;
     overflow-x: hidden;
+    min-height: 100vh;
+    background-image: repeating-linear-gradient(to right, transparent 0 49px, rgba(113, 113, 113, 0.07) 49px 50px),
+    repeating-linear-gradient(to bottom, transparent 0 49px, rgba(113, 113, 113, 0.07) 49px 50px);
     
-    &::before {
+    /* &::before {
       content: "";
       height: 100vh;
       width: 100vw;
@@ -28,10 +31,10 @@ export const GlobalStyle = createGlobalStyle`
       z-index: -1;
       background: linear-gradient(currentcolor 1px, transparent 1px) 0% 0% / 94px 90px, linear-gradient(to right, currentcolor 1px, transparent 1px) transparent;
       transition: all 0.5s linear 0s;
-    }
+    } */
     
     &:after {
-      background-image: radial-gradient(at 40% 40%, rgb(30, 144, 255) 0px, transparent 50%), radial-gradient(at 90% 10%, rgb(255, 105, 180) 0px, transparent 50%), radial-gradient(at 50% 95%, rgb(0, 255, 255) 0px, transparent 50%), radial-gradient(at 20% 30%, rgb(50, 205, 50) 0px, transparent 50%), radial-gradient(at 90% 90%, rgb(255, 255, 0) 0px, transparent 50%), radial-gradient(at 33% 50%, rgb(255, 69, 0) 0px, transparent 50%), radial-gradient(at 79% 53%, rgb(128, 0, 128) 0px, transparent 50%);
+      background-image: radial-gradient(at 40% 40%, rgb(30, 144, 255) 0px, transparent 80%), radial-gradient(at 90% 10%, rgb(255, 105, 180) 0px, transparent 50%), radial-gradient(at 50% 95%, rgb(0, 255, 255) 0px, transparent 30%), radial-gradient(at 20% 30%, rgb(50, 205, 50) 0px, transparent 30%), radial-gradient(at 95% 95%, rgb(255, 255, 0) 0px, transparent 30%), radial-gradient(at 33% 50%, rgb(255, 69, 0) 0px, transparent 50%), radial-gradient(at 79% 53%, rgb(128, 0, 128) 0px, transparent 50%);
       position: fixed;
       content: "";
       z-index: -1;
